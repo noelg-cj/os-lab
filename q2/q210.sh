@@ -11,6 +11,6 @@ function contains_only_123 {
 # Loop through all 3-digit numbers
 for (( i=100; i<=999; i++ )); do
     if contains_only_123 "$i"; then
-        echo $i
+        printf "$i   "
     fi
 done

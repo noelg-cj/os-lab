@@ -1,7 +1,7 @@
 read -p "Enter the file name: " file
 while read line
 do
-    echo "$line"
+    echo "Student: $line"
     fields=($line)
     roll=${fields[0]}
     sub1=${fields[1]}
