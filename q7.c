@@ -111,14 +111,6 @@ void Priority(process *p_arr, int n) {
 	display(p_arr, n);
 }
 
-void roundRobin(process *p_arr, int n) {
-	printf("Enter time quantum: ");
-	int q;
-	scanf("%d", &q);
-
-	
-}
-
 int main(void) {
 	int N;
 	printf("Enter the number of processes: ");
